@@ -7,7 +7,7 @@ int isGenap(int a){ //Subprogram fungsi int isGenap(int a)
         genap = true; //Aksi apabila kondisi terpenuhi
     } else { //Apabila kondisi tidak terpenuhi maka lakukan aksi di bawah
         genap = false; //Aksi apabila kondisi tidak terpenuhi
-    } //Penutup dari if(a%2==0){
+    } //Penutup dari else {
     return genap; //Mengembalikan nilai dari variabel genap
 } //Penutup dari int isGenap(int a){
 
