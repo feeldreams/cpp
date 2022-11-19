@@ -25,7 +25,7 @@ int main() { //Fungsi utama saat program pertama kali dijalankan
         cout << a << " Adalah Bilangan Genap"; //Aksi apabila kondisi terpenuhi
     } else { //Apabila kondisi tidak terpenuhi maka lakukan aksi di bawah
         cout << a << " Bukan Bilangan Genap"; //Aksi apabila kondisi tidak terpenuhi
-    } //Penutup dari if(genap==true){
+    } //Penutup dari else {
     
     return 0; //Untuk memberitahu kepada compiler bahwa program telah selesai dieksekusi
 } //Penutup dari int main();
