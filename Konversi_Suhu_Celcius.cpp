@@ -37,7 +37,7 @@ int main() { //Fungsi utama saat program pertama kali dijalankan
     	/* Aksi apabila kondisi tidak terpenuhi */
         fahr = fungsiFahr(celc); //Memasukkan nilai untuk variabel fahr dari pemanggilan fungsiFahr()
         cout << "Fahrenheit = " << fahr; //Output variabel fahr
-    } //Penutup dari if(pil==1){
+    } //Penutup dari else {
     
     return 0; //Untuk memberitahu kepada compiler bahwa program telah selesai dieksekusi
 } //Penutup dari int main();
